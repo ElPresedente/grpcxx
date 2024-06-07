@@ -7,5 +7,11 @@
   }, {
     "name" : "protobuf",
     "version>=" : "3.21.12#3"
+  }, {
+    "name" : "libuv",
+    "version>=" : "1.46.0#1"
+  }, {
+    "name" : "nghttp2",
+    "version>=" : "1.62.1"
   } ]
 }
