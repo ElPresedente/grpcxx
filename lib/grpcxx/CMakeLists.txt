@@ -46,7 +46,7 @@ target_sources(grpcxx
 
 target_link_libraries(grpcxx
 	PRIVATE
-		libnghttp2_lib
+		${libnghttp2_lib}
 	PUBLIC
 		libuv::uv_a
 )
