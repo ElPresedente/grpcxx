@@ -1,0 +1,11 @@
+{
+  "name" : "grpcxx",
+  "version" : "1.0.0",
+  "dependencies" : [ {
+    "name" : "fmt",
+    "version>=" : "10.2.1#2"
+  }, {
+    "name" : "protobuf",
+    "version>=" : "3.21.12#3"
+  } ]
+}

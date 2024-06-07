@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 3.23)
+if(NOT PROJECT_NAME)
+	set(CMAKE_TOOLCHAIN_FILE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake")
+	message("Toolchain=${CMAKE_TOOLCHAIN_FILE}")
+endif()
 project(grpcxx VERSION 0.2.0 LANGUAGES CXX)
 
 cmake_policy(SET CMP0135 NEW)
